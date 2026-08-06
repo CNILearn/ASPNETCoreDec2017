@@ -39,7 +39,7 @@
         "html-loader": "0.4.5",
         "isomorphic-fetch": "2.2.1",
         "jasmine-core": "2.6.4",
-        "jquery": "3.2.1",
+        "jquery": "3.5.0",
         "json-loader": "0.5.4",
         "karma": "1.7.0",
         "karma-chai": "0.1.0",
@@ -937,6 +937,17 @@
       "dev": true,
       "engines": {
         "node": ">=0.10.0"
+      }
+    },
+    "node_modules/bindings": {
+      "version": "1.5.0",
+      "resolved": "https://registry.npmjs.org/bindings/-/bindings-1.5.0.tgz",
+      "integrity": "sha512-p2q/t/mhvuOj/UeLlV6566GD/guowlr0hHxClI0W9m7MWYkL1F0hLo+0Aexs9HSPCtR1SXQ0TD3MMKrXZajbiQ==",
+      "dev": true,
+      "license": "MIT",
+      "optional": true,
+      "dependencies": {
+        "file-uri-to-path": "1.0.0"
       }
     },
     "node_modules/blob": {
@@ -2652,6 +2663,14 @@
         "node": ">=4.0.0"
       }
     },
+    "node_modules/file-uri-to-path": {
+      "version": "1.0.0",
+      "resolved": "https://registry.npmjs.org/file-uri-to-path/-/file-uri-to-path-1.0.0.tgz",
+      "integrity": "sha512-0Zt+s3L7Vf1biwWZ29aARiVYLx7iMGnEUl9x33fbB/j3jR81u/O2LbqK+Bm1CDSNDKVtJ/YjwY7TUd5SkeLQLw==",
+      "dev": true,
+      "license": "MIT",
+      "optional": true
+    },
     "node_modules/filename-regex": {
       "version": "2.0.1",
       "resolved": "https://registry.npmjs.org/filename-regex/-/filename-regex-2.0.1.tgz",
@@ -2767,6 +2786,26 @@
       "resolved": "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz",
       "integrity": "sha1-FQStJSMVjKpA20onh8sBQRmU6k8=",
       "dev": true
+    },
+    "node_modules/fsevents": {
+      "version": "1.2.13",
+      "resolved": "https://registry.npmjs.org/fsevents/-/fsevents-1.2.13.tgz",
+      "integrity": "sha512-oWb1Z6mkHIskLzEJ/XWX0srkpkTQ7vaopMQkyaEIoq0fmtFVxOthb8cCxeT+p3ynTdkk/RZwbgG4brR5BeWECw==",
+      "deprecated": "Upgrade to fsevents v2 to mitigate potential security issues",
+      "dev": true,
+      "hasInstallScript": true,
+      "license": "MIT",
+      "optional": true,
+      "os": [
+        "darwin"
+      ],
+      "dependencies": {
+        "bindings": "^1.5.0",
+        "nan": "^2.12.1"
+      },
+      "engines": {
+        "node": ">= 4.0"
+      }
     },
     "node_modules/function-bind": {
       "version": "1.1.0",
@@ -3565,11 +3604,11 @@
       "dev": true
     },
     "node_modules/jquery": {
-      "version": "3.2.1",
-      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
-      "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c=",
-      "deprecated": "This version is deprecated. Please upgrade to the latest version or find support at https://www.herodevs.com/support/jquery-nes.",
-      "dev": true
+      "version": "3.5.0",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.5.0.tgz",
+      "integrity": "sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==",
+      "dev": true,
+      "license": "MIT"
     },
     "node_modules/js-base64": {
       "version": "2.1.9",
@@ -4139,6 +4178,14 @@
       "resolved": "https://registry.npmjs.org/ms/-/ms-2.0.0.tgz",
       "integrity": "sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=",
       "dev": true
+    },
+    "node_modules/nan": {
+      "version": "2.28.0",
+      "resolved": "https://registry.npmjs.org/nan/-/nan-2.28.0.tgz",
+      "integrity": "sha512-fTsDz99OTq2sVePhGdp4qQhggZFtKr64ZNVyVajRKtMOkJxYekplBh577PiJB12v/D3s2E5cGtOI45LWp6rnLQ==",
+      "dev": true,
+      "license": "MIT",
+      "optional": true
     },
     "node_modules/nanomatch": {
       "version": "1.2.0",
