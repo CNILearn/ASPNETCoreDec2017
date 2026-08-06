@@ -39,7 +39,7 @@
         "html-loader": "0.4.5",
         "isomorphic-fetch": "2.2.1",
         "jasmine-core": "2.6.4",
-        "jquery": "3.2.1",
+        "jquery": "3.5.0",
         "json-loader": "0.5.4",
         "karma": "1.7.0",
         "karma-chai": "0.1.0",
@@ -3616,11 +3616,11 @@
       "dev": true
     },
     "node_modules/jquery": {
-      "version": "3.2.1",
-      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.2.1.tgz",
-      "integrity": "sha1-XE2d5lKvbNCncBVKYxu6ErAVx4c=",
-      "deprecated": "This version is deprecated. Please upgrade to the latest version or find support at https://www.herodevs.com/support/jquery-nes.",
-      "dev": true
+      "version": "3.5.0",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.5.0.tgz",
+      "integrity": "sha512-Xb7SVYMvygPxbFMpTFQiHh1J7HClEaThguL15N/Gg37Lri/qKyhRGZYzHRyLH8Stq3Aow0LsHO2O2ci86fCrNQ==",
+      "dev": true,
+      "license": "MIT"
     },
     "node_modules/js-base64": {
       "version": "2.1.9",
