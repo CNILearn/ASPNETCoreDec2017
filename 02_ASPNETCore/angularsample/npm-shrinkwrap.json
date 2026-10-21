@@ -8,7 +8,7 @@
       "version": "0.0.0",
       "devDependencies": {
         "@angular/animations": "4.2.5",
-        "@angular/common": "20.3.31",
+        "@angular/common": "20.3.34",
         "@angular/compiler": "4.2.5",
         "@angular/compiler-cli": "4.2.5",
         "@angular/core": "4.2.5",
@@ -74,9 +74,9 @@
       }
     },
     "node_modules/@angular/common": {
-      "version": "20.3.31",
-      "resolved": "https://registry.npmjs.org/@angular/common/-/common-20.3.31.tgz",
-      "integrity": "sha512-h2SM62jldHWHN+SFERjOaxDYAdFyJTfx1dSFbg92OiRKRq2oRZkc6NrSk+rwpHCy5hkaqDxZl0UCqT/C6uLbXA==",
+      "version": "20.3.34",
+      "resolved": "https://registry.npmjs.org/@angular/common/-/common-20.3.34.tgz",
+      "integrity": "sha512-OhB/l0cNldOvQeICqbWqRUzK5fF6zNYy44Q4cIGJZql8HXL/invGiqWLE9f+kU8z4jRisofHIGTBtyJQYYOudg==",
       "dev": true,
       "license": "MIT",
       "dependencies": {
@@ -86,7 +86,7 @@
         "node": "^20.19.0 || ^22.12.0 || >=24.0.0"
       },
       "peerDependencies": {
-        "@angular/core": "20.3.31",
+        "@angular/core": "20.3.34",
         "rxjs": "^6.5.3 || ^7.4.0"
       }
     },
